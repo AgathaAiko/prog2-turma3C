@@ -16,3 +16,15 @@ botoes[i].onclick = function(){
     
     botoes[i].classList.add("ativo");
 }
+for(let j=0;j<botoes.length;j++){
+    botoes[j].classList.remove("ativo");
+}
+for(let j=1;j<botoes.length;j++){
+    botoes[j].classList.remove("ativo");
+}
+for(let j=2;j<botoes.length;j++){
+    botoes[j].classList.remove("ativo");
+}
+for(let j=3;j<botoes.length;j++){
+    botoes[j].classList.remove("ativo");
+}
